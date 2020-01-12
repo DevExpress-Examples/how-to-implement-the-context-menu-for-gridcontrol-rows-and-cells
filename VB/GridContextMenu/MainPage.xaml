@@ -13,21 +13,21 @@
         <local:MainViewModel/>
     </Page.DataContext>
     <Grid>
-		<dxg:GridControl ItemsSource="{Binding Items}"
+        <dxg:GridControl ItemsSource="{Binding Items}"
 							CurrentItem="{Binding SelectedItem}"
 							AutoGenerateColumns="True">
-			<dxg:GridControl.RowCellMenu>
-				<dxr:ContextToolbarControl Orientation="Vertical">
-					<dxr:ContextToolbarGroup>
-						<dxr:ContextToolbarButton Content="Duplicate"
+            <dxg:GridControl.RowCellMenu>
+                <dxr:ContextToolbarControl Orientation="Vertical">
+                    <dxr:ContextToolbarGroup>
+                        <dxr:ContextToolbarButton Content="Duplicate"
 													Command="{Binding Grid.DataContext.DuplicateCommand}"
 													CommandParameter="{Binding Row.Row}"/>
-						<dxr:ContextToolbarButton Content="Delete"
+                        <dxr:ContextToolbarButton Content="Delete"
 													Command="{Binding Grid.DataContext.DeleteCommand}"
 													CommandParameter="{Binding Row.Row}"/>
-					</dxr:ContextToolbarGroup>
-				</dxr:ContextToolbarControl>
-			</dxg:GridControl.RowCellMenu>
-		</dxg:GridControl>
+                    </dxr:ContextToolbarGroup>
+                </dxr:ContextToolbarControl>
+            </dxg:GridControl.RowCellMenu>
+        </dxg:GridControl>
     </Grid>
 </Page>
