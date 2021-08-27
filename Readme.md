@@ -1,3 +1,8 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/233388647/19.1.2%2B)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T851507)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # How to implement the Context Menu for GridControl rows and cells
 
 GridControl provides the [RowCellMenu](https://docs.devexpress.com/Win10Apps/DevExpress.UI.Xaml.Grid.GridControl.RowCellMenu) property where you can define a custom Context Menu for GridControl rows and cells. You can use either the standard **MenuFlyout** control in this property, or our **ContextToolbarControl** or **ToolbarControl**. To compare these controls, refer to the ***Utility Controls -> Context Menu*** demo available from our [Interactive Demos](https://docs.devexpress.com/WPF/14978/whats-installed/interactive-demos) installed on your machine with our controls.
